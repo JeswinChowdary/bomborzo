@@ -1,0 +1,110 @@
+@media all and (max-width: 1300px) {
+    .navbar-container {
+        height: 60px
+    }
+    .nav-link {
+        font-size: 18px;
+        padding-left: 30px;
+    }
+    .logo {
+        font-size: 30px;
+    }
+}
+@media all and (max-width: 1200px) {
+    .payment-h2 {
+        font-size: 17px;
+    }
+}
+@media all and (max-width: 1100px) {
+    .navbar-container {
+        height: 50px
+    }
+}
+@media all and (max-width: 1000px) {
+
+}
+@media all and (max-width: 900px) {
+    .nav-link {
+        font-size: 16px;
+        padding-left: 30px;
+    }
+    .nav-buttons {
+        margin-left: 40px;
+    }
+    .logo {
+        font-size: 25px;
+    }
+}
+@media all and (max-width: 800px) {
+    .payment-img {
+        height: 200px;
+        width: 200px;
+        padding-top: 20px;
+    }
+}
+@media all and (max-width: 700px) {
+
+}
+@media all and (max-width: 600px) {
+    .nav-link {
+        font-size: 12px;
+        padding-left: 30px;
+    }
+    .navbar-container {
+        height: 40px;
+    }
+    .logo {
+        font-size: 20px;
+    }
+    .payment-h2 {
+        font-size: 15px;
+    }
+    #confirm-payment-button {
+        height: 35px;
+        width: 130px;
+        font-size: 12px;
+    }
+}
+@media all and (max-width: 500px) {
+    .nav-link {
+        font-size: 12px;
+        padding-left: 15px;
+    }
+    .navbar-buttons {
+        height: 0;
+    }
+    .logo {
+        font-size: 20px;
+    }
+    .payment-h2 {
+        font-size: 13px;
+    }
+}
+@media all and (max-width: 400px) {
+    .nav-link {
+        font-size: 10px;
+        padding-left: 9px;
+    }
+    .navbar-buttons {
+        height: 0;
+    }
+    .logo {
+        font-size: 17px;
+        padding-left: 20px;
+    }
+    .payment-img {
+        height: 150px;
+        width: 150px;
+        padding-top: 20px;
+    }
+    #confirm-payment-button {
+        height: 30px;
+        width: 110px;
+        font-size: 11px;
+    }
+}
+@media all and (max-width: 300px) {
+    .payment-h2 {
+        font-size: 12px;
+    }
+}

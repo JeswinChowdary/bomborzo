@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(77, 145, 170);
+}
+
+.navbar-container {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    color: white;
+    font-family: Great Vibes;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.nav-link {
+    font-size: 22px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 40px;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: red;
+}
+
+.buy-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 700px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.heading {
+    font-size: 30px;
+    color: black;
+    font-family: Stylish;
+    font-weight: bold;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+.buy-input-container {
+    display: flex;
+    width: 90%;
+    padding-top: 10px;
+}
+
+.buy-inputs {
+    padding-top: 100px;
+}
+
+.buy-input {
+    padding-top: 10px;
+    width: 60%;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.input-info {
+    font-size: 13px;
+}
+
+#buy-button {
+    height: 40px;
+    width: 100px;
+    background: rgb(77, 145, 170);
+    color: white;
+    font-family: Stylish;
+    font-size: 25px;
+    margin-top: 100px;
+    transition: 300ms ease-in-out;
+}
+#buy-button:hover {
+    border-radius: 10px;
+    box-shadow: 0 0 50px 5px red;
+    cursor: pointer;
+}
